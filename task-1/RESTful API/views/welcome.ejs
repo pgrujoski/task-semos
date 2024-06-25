@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+  </head>
+  <body>
+    <h1>All Courses</h1>
+    <ul>
+      <% courses.forEach(course => { %>
+      <li><%= course.name %> - <%= course.address %></li>
+      <% }); %>
+    </ul>
+  </body>
+</html>
